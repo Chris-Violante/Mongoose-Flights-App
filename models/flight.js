@@ -8,9 +8,7 @@ const destSchema = new Schema({
         default: 'DEN'
     },
     arrival: {
-        type: String,
-        enum: ['AUS', 'DFW', 'DEN', 'LAX', 'SAN'],
-        default: 'DEN'
+        type: Date,
     }
      
 });
